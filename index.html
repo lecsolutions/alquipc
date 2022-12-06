@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <title>ALQUIPC</title>
+</head>
+
+<body>
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>ALQUIPC</h1>
+            <div class="grupo">
+                <input type="text" name="" id="name"><span class="barra"></span>
+                <label for="">Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="" id="idclient"><span class="barra"></span>
+                <label for="">Id cliente</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="" id="telefono"><span class="barra"></span>
+                <label for="">Celular</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="" id="email"><span class="barra"></span>
+                <label for="">Email</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="" id="equipos"><span class="barra"></span>
+                <label for="">Numero de equipos</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="" id="diasAlquiler"><span class="barra"></span>
+                <label for="">Dias de alquiler</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="" id="diasAdicionales"><span class="barra"></span>
+                <label for="">Dias adicionales de alquiler</label>
+            </div>
+            <!-- Radio buttons -->
+            <form action="">
+                <div style="display: flex; justify-content: end;" class="grupo">
+                    <input style="width: auto;" type="radio" name="servicio" id="dentroCiudad" value="Dentro de la ciudad">
+                    <label for="dentroCiudad">Dentro de la ciudad</label>
+                </div>
+                <div style="display: flex; justify-content: end;" class="grupo">
+                    <input style="width: auto;" type="radio" name="servicio" id="fueraCiudad" value="Fuera de la ciudad">
+                    <label for="fueraCiudad">Fuera de la ciudad</label>
+                </div>
+                <div style="display: flex; justify-content: end;" class="grupo">
+                    <input style="width: auto;" type="radio" name="servicio" id="establecimiento" value="Dentro de establecimiento">
+                    <label for="establecimiento">Dentro del establecimiento</label>
+                </div>
+    
+            </form>
+
+            <button type="submit">Suscribirte</button>
+            <p class="warnings" id="warnings"></p>
+            <p class="success" id="success"></p>
+        </div>
+    </form>
+    <script src="codigo.js"></script>
+</body>
+</html>
